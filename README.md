@@ -1,3 +1,3 @@
 # Multiple_Linear_Regression
-Fork and download the data file to use the model as-is.
-You may use your own data so long as it has been preprocessed
+Fork and download the data files to use the models as-is.
+You may use your own data so long as it has been properly preprocessed
