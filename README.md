@@ -44,5 +44,32 @@ The script first trains a linear regression model on the input data using the Li
 ## Visualization
 The script generates three plots to visualize the linear and polynomial regression models. The first plot shows the linear regression model, the second plot shows the polynomial regression model, and the third plot shows a higher-resolution version of the polynomial regression model for a smoother curve.
 
-Output
+## Output
 The script also prints out the predictions made by the linear and polynomial regression models for a new independent variable value of 6.5.
+
+# Support Vector Regression (SVR)
+This script demonstrates how to implement support vector regression (SVR) using the scikit-learn library in Python.
+
+##Dependencies
+The following libraries are required to run this script:
+
+- numpy
+- matplotlib
+- pandas
+- sklearn
+- Input Data
+The script reads in a dataset stored in a .csv file called 'Position_Salaries.csv'. The file should contain the following columns:
+
+- Column of independent variable (predictor)
+- Column of the dependent variable (response)
+## Preprocessing
+The script performs feature scaling on the input data using the StandardScaler class from sklearn.preprocessing.
+
+## Model Training and Evaluation
+The script trains an SVR model on the input data using the SVR class from sklearn.svm. It then uses the trained model to make a prediction for a new independent variable value of 6.5.
+
+## Visualization
+The script generates two plots to visualize the SVR model. The first plot shows the SVR model, and the second plot shows a higher-resolution version of the SVR model for a smoother curve.
+
+## Output
+The script prints out the prediction made by the SVR model for a new independent variable value of 6.5.
