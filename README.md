@@ -21,3 +21,28 @@ The script then splits the data into a training and test set using the train_tes
 
 ## Output
 The script prints out a comparison of the predicted values and the actual values of the dependent variable in the test set. The predicted and actual values are printed side-by-side for easy comparison.
+
+# Polynomial Regression
+This script demonstrates how to implement polynomial regression using the scikit-learn library in Python.
+
+## Dependencies
+The following libraries are required to run this script:
+
+- numpy
+- matplotlib
+- pandas
+- sklearn
+- Input Data
+- The script reads in a dataset stored in a .csv file called 'Position_Salaries.csv'. The file should contain the following columns:
+
+- Column of independent variable (predictor)
+- Column of the dependent variable (response)
+
+## Model Training and Evaluation
+The script first trains a linear regression model on the input data using the LinearRegression class from sklearn.linear_model. It then trains a polynomial regression model on the same data by first transforming the independent variable using the PolynomialFeatures class from sklearn.preprocessing, and then fitting a linear regression model on the resulting polynomial features.
+
+## Visualization
+The script generates three plots to visualize the linear and polynomial regression models. The first plot shows the linear regression model, the second plot shows the polynomial regression model, and the third plot shows a higher-resolution version of the polynomial regression model for a smoother curve.
+
+Output
+The script also prints out the predictions made by the linear and polynomial regression models for a new independent variable value of 6.5.
